@@ -1,10 +1,11 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 
 const Review = (props) => {
   const { profileImg, profileName, review } = props.review;
   return (
-    <Col xl={6} lg={6}>
+    <Col className="d-flex align-items-stretch" xl={6} lg={6}>
+      <Card className="p-4">
       <div>
         <img
           className="
@@ -28,6 +29,7 @@ const Review = (props) => {
           {review}
         </p>
       </div>
+      </Card>
     </Col>
   );
 };
