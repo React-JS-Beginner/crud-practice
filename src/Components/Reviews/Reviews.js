@@ -5,8 +5,8 @@ import Review from "../Review/Review";
 const Reviews = () => {
   const [reviews] = CustomeData();
   return (
-    <Container className="mb-5 pb-5">
-      <h3 className="text-center p-5">
+    <Container className="mb-5 pb-5 px-5">
+      <h3 className="text-center mt-5 mb-5 pb-3 px-5">
         REVIEWS OF OUR BELOVED <span className="text-success">CLIENTS</span>
       </h3>
       <Row className="g-5">
