@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "img":"https://media.istockphoto.com/photos/concentrated-young-man-box-training-in-the-gym-picture-id1130300402?b=1&k=20&m=1130300402&s=170667a&w=0&h=91uPO6HE9bq2l47_JsRUVF60rMxDLm0MP2HUTtwWJF0=",
+    "titleOne": "Beginner",
+    "titleTwo": "Training",
+    "description": "To progress faster, we recommend at least two workouts a week for a minimum of 2 hours."
+  },
+  {
+    "id": 1,
+    "img":"https://media.istockphoto.com/photos/muay-thai-athletes-training-on-the-boxing-ring-match-getting-ready-to-picture-id1322336183?b=1&k=20&m=1322336183&s=170667a&w=0&h=WdhEPHG4S8c9QIK0vG8OltqGz2978a1dYAa_hqA7mcA=",
+    "titleOne": "Professional",
+    "titleTwo": "Training",
+    "description": "Three strength sessions per week all based on punching, leg movements and intensive workouts."
+  },
+  {
+    "id": 2,
+    "img":"https://media.istockphoto.com/photos/female-boxer-training-inside-a-boxing-ring-picture-id903737446?b=1&k=20&m=903737446&s=170667a&w=0&h=uj5m9encfmMVBR4rAB8mBchzIblkl9cB7-Deio-pdpE=",
+    "titleOne": "Women",
+    "titleTwo": "Self Defense Training",
+    "description": "Boxing classes are the place where women can develop the mental and physical skills."
+  },
+  {
+    "id": 3,
+    "img":"https://media.istockphoto.com/photos/young-man-in-kickboxing-training-center-picture-id911207712?b=1&k=20&m=911207712&s=170667a&w=0&h=wYbI2HwRJomUDYhm_LXIr16JcP1i4UbMyTsAnN7Mi4E=",
+    "titleOne": "Children",
+    "titleTwo": "Training",
+    "description": "If a child shows interest in boxing, no age is too early to start learning basic boxing training."
+  } 
+]

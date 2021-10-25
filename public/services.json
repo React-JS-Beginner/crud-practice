@@ -1,0 +1,110 @@
+[
+  {
+    "id": 0,
+    "profileId": 0,
+    "img": "https://media.istockphoto.com/photos/concentrated-young-man-box-training-in-the-gym-picture-id1130300402?b=1&k=20&m=1130300402&s=170667a&w=0&h=91uPO6HE9bq2l47_JsRUVF60rMxDLm0MP2HUTtwWJF0=",
+    "profileImg": "https://randomuser.me/api/portraits/men/70.jpg",
+    "profileName":"Jesse Douglas",
+    "titleOne": "Get Ready",
+    "titleTwo": "Boxing",
+    "description": "Boxers, get ready to fight with this workout routine to build brute strength, rapid-fast reflexes, and superhuman endurance.",
+    "review": "Amazing and super friendly staff that really knows their stuff. Best gym in Austin to actually learn Muay Thai while getting a helluva workout!",
+    "urlYT": "https://www.youtube.com/watch?v=11Gb1Q7XEQU&ab_channel=DeeFishKeeper"
+  },
+  {
+    "id": 1,
+    "profileId": 1,
+    "img": "https://media.istockphoto.com/photos/beautiful-sporty-fit-blond-girl-listening-to-the-music-and-running-picture-id1029197748?b=1&k=20&m=1029197748&s=170667a&w=0&h=tvHyQWzUSye6rsJi70Ce8YPIWfAT0Ke9GcdJsDtVo2Y=",
+    "profileImg": "https://randomuser.me/api/portraits/men/71.jpg",
+    "profileName":"Todd Washington",
+    "titleOne": "Cardio",
+    "titleTwo": "Boxing",
+    "description": "The great majority of boxers today still run 4 or 5 miles on a daily basis. Boxing is anaerobic in nature.",
+    "review": "Great gym with great instructors, great equipment , and also a great environment to be in doing the kind of training we do. I highly recommend this to any level of experience when wanting to get in there and learn.",
+    "urlYT": "https://www.youtube.com/watch?v=8fp3o7WKHQ0&ab_channel=fightTIPS"
+  },
+  {
+    "id": 2,
+    "profileId": 2,
+    "img": "https://media.istockphoto.com/photos/love-to-make-it-myself-picture-id1310661305?b=1&k=20&m=1310661305&s=170667a&w=0&h=qaaXvVOmvyOMO3XZgJN13JxJyl9yuqMd1dkaOQX-510=",
+    "profileImg": "https://randomuser.me/api/portraits/men/72.jpg",
+    "profileName":"Dan Green",
+    "titleOne": "Nutrition",
+    "titleTwo": "Boxing",
+    "description": "Boxers should eat natural carbohydrates, such as those found in sweet potatoes, peas, beans, wholegrain bread, fruits and honey.",
+    "review": "This place is awesome. The atmosphere is friendly and inviting. The coaches work with you and very hands on with clients.",
+    "urlYT": "https://www.youtube.com/watch?v=cYc2zmijno8&ab_channel=GQSports"
+  },
+  {
+    "id": 3,
+    "profileId": 3,
+    "img": "https://media.istockphoto.com/photos/man-kick-boxer-training-alone-in-gym-picture-id1252207646?b=1&k=20&m=1252207646&s=170667a&w=0&h=9AkllOFoeB7NjD54a0glO2MfVoSwmpUzUAm_GLqVcEs=",
+    "profileImg": "https://randomuser.me/api/portraits/men/73.jpg",
+    "profileName":"Wyatt Bowman",
+    "titleOne": "Equipment",
+    "titleTwo": "Boxing",
+    "description": "If you're training boxing basics with a heavy bag (no partner) you'll need skipping rope, hand wraps, bag gloves, and a heavy bag.",
+    "review": "Took the beginners class and it was amazing! Coaches are very thorough and helpful in building the foundation of your technique. Can’t wait to buy a membership!!",
+    "urlYT": "https://www.youtube.com/watch?v=UHzNGfimdSk&ab_channel=RyanGarcia"
+  },
+  {
+    "id": 4,
+    "profileId": 4,
+    "img": "https://media.istockphoto.com/photos/boxer-in-boxing-ring-picture-id92148958?b=1&k=20&m=92148958&s=170667a&w=0&h=LIEwovrboTjYi-RNM3oNIYt7xtbcufA4RefzhBIIIDI=",
+    "profileImg": "https://randomuser.me/api/portraits/men/74.jpg",
+    "profileName":"Hector Rivera",
+    "titleOne": "Convenient Time",
+    "titleTwo": "Boxing",
+    "description": "Timeboxing is a very simple and popular time management technique that can help you take better control over your schedule. ",
+    "review": "They hosted a nice charity seminar today to help a local martial artist raise money for cancer treatment. Great people!",
+    "urlYT": "https://www.youtube.com/watch?v=pvN8Z1-ZWg4&ab_channel=FitBangladesh"
+  },
+  {
+    "id": 5,
+    "profileId": 5,
+    "img": "https://media.istockphoto.com/photos/fighter-boxing-knockout-picture-id1017585700?b=1&k=20&m=1017585700&s=170667a&w=0&h=XH3w1JY8UR2kRKc9M9Auv1eetowDGA4yuHxHEAHcjcI=",
+    "profileImg": "https://randomuser.me/api/portraits/men/75.jpg",
+    "profileName":"Alan Kennedy",
+    "titleOne": "Push Your Limits",
+    "titleTwo": "Boxing",
+    "description": "Boxing is not exclusive to elite athletes and exercise enthusiasts. Everyone can enjoy the many benefits boxing has on the body.",
+    "review": "I have been training at ELITE for about 6 months and i love it, they push you to be better in a fun and engaging way.The gym is incredibly supportive and treats you like family.",
+    "urlYT": "https://www.youtube.com/watch?v=3_9DulcG_BM&ab_channel=BoxingMatrix"
+  },
+  {
+    "id": 6,
+    "profileId": 6,
+    "img": "https://media.istockphoto.com/photos/personal-trainer-and-female-boxer-training-picture-id1181321025?b=1&k=20&m=1181321025&s=170667a&w=0&h=GnGWdmffprJU7Vhetdtj56h40JUt6gTff94kdqnWVlY=",
+    "profileImg": "https://randomuser.me/api/portraits/men/76.jpg",
+    "profileName":"Cameron Welch",
+    "titleOne": "Skill Development",
+    "titleTwo": "Boxing",
+    "description": "A proper boxing stance is what separates the great boxers from the average boxers and footwork determines the speed of a boxer.",
+    "review": "First time taking a boxing class today. It was awesome. I was greeted by Nick. He was very informative about the membership they offer and attentive. I had so much fun.",
+    "urlYT": "https://www.youtube.com/watch?v=3B0aEUNKxEU&ab_channel=CoachDaron"
+  },
+  {
+    "id": 7,
+    "profileId": 7,
+    "img": "https://media.istockphoto.com/photos/muay-thai-workout-boxing-gloves-close-up-picture-id641013710?b=1&k=20&m=641013710&s=170667a&w=0&h=dvo_eCWmaeQ1k6oxsB95T_G-OL4HiNZ5Nsp-loymP-c=",
+    "profileImg": "https://randomuser.me/api/portraits/men/77.jpg",
+    "profileName":"Tyler Thompson",
+    "titleOne": "Take Rest",
+    "titleTwo": "Boxing",
+    "description": "Whatever you decide, the main thing is to give yourself at least 1 day a week off. That's the minimum requirement.",
+    "review": "ELITE Boxing has been a great place to take my boys learn a new activity! They're typically enrolled in football and baseball. Introducing them to boxing has been an extra treat for them as they love the teachers and the friends they meet.",
+    "urlYT": "https://www.youtube.com/watch?v=fHR3BqQr61g&ab_channel=JesseJones"
+  },
+  {
+    "id": 8,
+    "profileId": 8,
+    "img": "https://media.istockphoto.com/photos/empty-boxing-ring-arena-picture-id522438599?b=1&k=20&m=522438599&s=170667a&w=0&h=XBIBUEaJpVDxRcrqZj64mhR_Qd_IG1hyVnyHdmgw7w4=",
+    "profileImg": "https://randomuser.me/api/portraits/men/78.jpg",
+    "profileName":"Julian Perry",
+    "titleOne": "Get In The Ring",
+    "titleTwo": "Boxing",
+    "description": "You need to be fresh and available. It is important to train regularly but in the two weeks preceding the fight (or at least one).",
+    "review": "Have been attending on and off for several years. Great staff and high quality instruction. Would definitely recommend.",
+    "urlYT": "https://www.youtube.com/watch?v=jpV-mOneVrk&ab_channel=PrecisionStriking"
+  }  
+]
