@@ -7,14 +7,12 @@ const Review = (props) => {
 
   return (
     <Col className="d-flex align-items-stretch" xl={6} lg={6}>
-      <Card className="p-4 d-flex flex-row align-items-baseline">
+      <Card className="p-4">
         <Link
           to={`/comments/${_id}`}
           className="text-decoration-none text-dark"
         >
           <div>
-            <span className="d-none">Hidden Text</span>
-            <br />
             <img
               className="
       rounded-circle
