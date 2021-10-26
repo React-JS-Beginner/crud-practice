@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import NotFound from "./Components/NotFound/NotFound";
 import Reviews from "./Components/Reviews/Reviews";
 import "./App.css";
+import SingleComment from "./Components/SingleComment/SingleComment";
 function App() {
   return (
     <div className="page-container">
@@ -17,12 +18,16 @@ function App() {
               <Reviews></Reviews>
             </Route>
 
+            <Route path="/addreview">
+              <AddReview></AddReview>
+            </Route>
+
             <Route path="/reviews">
               <Reviews></Reviews>
             </Route>
 
-            <Route path="/addreview">
-              <AddReview></AddReview>
+            <Route path="/comments/:id">
+              <SingleComment></SingleComment>
             </Route>
 
             <Route path="*">

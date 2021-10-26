@@ -5,16 +5,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Review = (props) => {
-  const { profileImg, profileName, review } = props.review;
+  const { _id, profileImg, profileName, review } = props.review;
   const element = <FontAwesomeIcon className="fs-5 text-danger" icon={faTimesCircle} />;
   return (
     <Col className="d-flex align-items-stretch" xl={6} lg={6}>
       
       <Card className="p-4 d-flex flex-row align-items-baseline">
       
-        <Link className="text-decoration-none text-dark">
+        <Link 
+        to={`/comments/${_id}`} 
+        className="text-decoration-none text-dark">
           <div>
-            <span className="d-none">Hidden</span>
+            <span className="d-none">Hidden Text</span>
             <br />
             <img
               className="
@@ -39,6 +41,7 @@ const Review = (props) => {
             </p>
           </div>
         </Link>
+
         <Link><div>{element}</div></Link>
         
       </Card>
