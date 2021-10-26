@@ -16,6 +16,7 @@ const Header = () => {
           </strong>
         </div>
         <Nav>
+
           <NavLink
             activeClassName="navs-active"
             className="navs me-5  text-decoration-none"
@@ -23,6 +24,7 @@ const Header = () => {
           >
             Add Review
           </NavLink>
+
           <NavLink
             activeClassName="navs-active"
             className="navs me-5  text-decoration-none"
@@ -30,6 +32,15 @@ const Header = () => {
           >
             Reviews
           </NavLink>
+
+          <NavLink
+            activeClassName="navs-active"
+            className="navs me-5  text-decoration-none"
+            to="/managereviews"
+          >
+            Manage Reviews
+          </NavLink>
+
         </Nav>
       </Container>
     </Navbar>

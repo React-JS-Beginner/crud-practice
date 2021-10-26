@@ -6,6 +6,7 @@ import NotFound from "./Components/NotFound/NotFound";
 import Reviews from "./Components/Reviews/Reviews";
 import "./App.css";
 import SingleComment from "./Components/SingleComment/SingleComment";
+import ManageReviews from "./Components/ManageReviews/ManageReviews";
 function App() {
   return (
     <div className="page-container">
@@ -28,6 +29,10 @@ function App() {
 
             <Route path="/comments/:id">
               <SingleComment></SingleComment>
+            </Route>
+
+            <Route path="/managereviews">
+              <ManageReviews></ManageReviews>
             </Route>
 
             <Route path="*">
