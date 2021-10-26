@@ -1,10 +1,12 @@
 import axios from "axios";
 import React from "react";
+import { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
 const AddReview = () => {
   const { register, handleSubmit, reset } = useForm();
+  const [success, setSuccess] = useState();
 
   const onSubmit = (data) => {
     console.log(data);
@@ -13,8 +15,14 @@ const AddReview = () => {
       if (res.data.insertedId) {
         // alert("Review Posted");
         reset();
+        setSuccess("Review Posted Successfully!");
       }
     });
+  };
+
+  //Remove Success Text
+  const successTextRemover = () => {
+    setSuccess("");
   };
 
   return (
@@ -27,13 +35,20 @@ const AddReview = () => {
         className="d-flex flex-column w-25 mx-auto"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <input className="mb-3 p-2" placeholder="Name" {...register("profileName")} />
         <input
+          onClick={successTextRemover}
+          className="mb-3 p-2"
+          placeholder="Name"
+          {...register("profileName")}
+        />
+        <input
+          onClick={successTextRemover}
           className="mb-3 p-2"
           placeholder="Image URL"
           {...register("profileImg")}
         />
         <textarea
+          onClick={successTextRemover}
           className="mb-3 p-2"
           placeholder="Review"
           {...register("review")}
@@ -42,6 +57,7 @@ const AddReview = () => {
           Post
         </Button>
       </Form>
+      <p className="text-center text-success mt-5 fs-5">{success}</p>
     </div>
   );
 };
