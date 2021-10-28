@@ -14,7 +14,7 @@ const ManageReviews = () => {
   );
 
   useEffect(() => {
-    fetch("http://localhost:5000/comments")
+    fetch("https://dry-beach-93316.herokuapp.com/comments")
       .then((res) => res.json())
       .then((data) => setComments(data));
     // .then((data) => console.log(data));
@@ -22,7 +22,7 @@ const ManageReviews = () => {
 
   //Delete
   const deleteHandler = (id) => {
-    fetch(`http://localhost:5000/comments/${id}`, {
+    fetch(`https://dry-beach-93316.herokuapp.com/comments/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -34,9 +34,8 @@ const ManageReviews = () => {
         if (data.deletedCount > 0) {
           const remainingComments = comments.filter(
             (comment) => comment._id !== id
-
           );
-        console.log(remainingComments);
+          console.log(remainingComments);
           setComments(remainingComments);
         }
       });

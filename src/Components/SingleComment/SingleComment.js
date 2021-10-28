@@ -7,7 +7,7 @@ const SingleComment = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/comments/${id}`)
+    fetch(`https://dry-beach-93316.herokuapp.com/comments/${id}`)
       .then((res) => res.json())
       .then((data) => setComment(data));
     // .then((data) => console.log(data));

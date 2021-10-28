@@ -10,14 +10,16 @@ const AddReview = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    axios.post("http://localhost:5000/comments", data).then((res) => {
-      // console.log(res);
-      if (res.data.insertedId) {
-        // alert("Review Posted");
-        reset();
-        setSuccess("Review Posted Successfully!");
-      }
-    });
+    axios
+      .post("https://dry-beach-93316.herokuapp.com/comments", data)
+      .then((res) => {
+        // console.log(res);
+        if (res.data.insertedId) {
+          // alert("Review Posted");
+          reset();
+          setSuccess("Review Posted Successfully!");
+        }
+      });
   };
 
   //Remove Success Text
